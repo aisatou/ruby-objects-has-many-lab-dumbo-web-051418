@@ -9,11 +9,6 @@ class Artist
     @songs = []
   end
 
-  # def new(name, songs)
-  #   @name = name
-  #   @songs = songs
-  # end
-
   def songs
     @songs
   end
