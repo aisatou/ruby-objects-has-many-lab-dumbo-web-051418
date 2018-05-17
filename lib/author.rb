@@ -45,12 +45,11 @@ attr_accessor :title, :author
 
 
   def author_name
-    @author ? @author.name : nil # works the same as below
 
-  #   if @author
-  #     @author.name
-  #   else
-  #     nil
-  #   end
+    if @author
+      @author.name
+    else
+      nil
+    end
   end
 end
