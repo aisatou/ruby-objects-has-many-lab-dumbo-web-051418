@@ -34,6 +34,4 @@ class Artist
     @@song_count
   end
 
-  
-  
 end
